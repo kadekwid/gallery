@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #E27DA1;
+  height: 100vh;
+}
+
+p {
+  color: #fff;
+}
+
+b {
+  color: #FFD1B0;
+}
+
+ul {
+  background-color: #356E9A;
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+li {
+  list-style: none;
+}
+
+li p {
+  margin-right: 200px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+.nav {
+  display: flex;
+  margin-left: 400px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  margin: 20px 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.form {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.input {
+  display: block;
+  border: 1px solid #ccc;
+  width: 280px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.lokasi_file {
+  color: #fff;
+  display: block;
+  border: 1px solid #ccc;
+  width: 280px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.button {
+  float: right;
+  background: #FFD1B0;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+}
+
+.input-table {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+  border: 5px solid #356E9A;
+}
+
+.input-table th {
+  height: 50px;
+  border: 5px solid #356E9A;
+}
+
+.input-table td {
+  height: 50px;
+  border: 5px solid #356E9A;
+}
